@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/colorPrimary">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textColorHighlight="@color/blue"
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:id="@+id/splashscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Covid 19 Tracker"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="50dp" />
+
+
+</LinearLayout>

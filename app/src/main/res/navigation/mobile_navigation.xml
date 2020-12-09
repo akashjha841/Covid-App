@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.android.covidtracker.ui.aboutus.AboutusFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/activity_about_us" />
+
+
+    <fragment
+        android:id="@+id/nav_world_data"
+        android:name="com.example.android.covidtracker.ui.WorldData.WorldDataFragment"
+        android:label="@string/menu_world_data"
+        tools:layout="@layout/activity_world_data" />
+
+    <fragment
+        android:id="@+id/nav_country_data"
+        android:name="com.example.android.covidtracker.ui.CountryData.CountryDataFragment"
+        android:label="@string/menu_coutnry_data"
+        tools:layout="@layout/activity_list_country_data" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.android.covidtracker.home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home2" />
+</navigation>
